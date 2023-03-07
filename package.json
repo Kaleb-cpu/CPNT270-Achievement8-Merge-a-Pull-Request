@@ -1,5 +1,25 @@
 {
+  "name": "achievement8-merge-a-pull-request",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./assets/css/main.css -o ./assets/css/output.css --watch1",
+    "format": "npx prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kaleb-cpu/CPNT270-Achievement8-Merge-a-Pull-Request.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kaleb-cpu/CPNT270-Achievement8-Merge-a-Pull-Request/issues"
+  },
+  "homepage": "https://github.com/Kaleb-cpu/CPNT270-Achievement8-Merge-a-Pull-Request#readme",
   "devDependencies": {
-    "prettier": "2.8.4"
+    "prettier-plugin-tailwindcss": "^0.2.4",
+    "tailwindcss": "^3.2.7"
   }
 }
